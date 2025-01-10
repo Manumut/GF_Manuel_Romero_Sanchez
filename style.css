@@ -1,17 +1,6 @@
-body {
-    font-family: 'Arial', sans-serif;
+.carousel-inner img {
+    max-height: 500px; /* Ajusta el alto máximo */
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+    margin: 0 auto; /* Centra la imagen */
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.card-title {
-    color: #333;
-}
-
-footer {
-    background-color: #222;
-    color: #fff;
-}
