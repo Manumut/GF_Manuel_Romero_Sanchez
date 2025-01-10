@@ -4,3 +4,40 @@
     margin: 0 auto; /* Centra la imagen */
 }
 
+/* HISORIA */
+
+.hero-section {
+    background: url('./imgs/felinos-silueta.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.section-heading {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.timeline {
+    border-left: 2px solid #007bff;
+    padding-left: 20px;
+}
+
+.timeline-event {
+    margin-bottom: 30px;
+}
+
+.timeline-event h5 {
+    color: #007bff;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
