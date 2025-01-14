@@ -12,6 +12,7 @@
 footer {
     background-color: #222;
     color: #fff;
+    padding: 20px;
 }
 
 /* PAGINA HISTORIA */
@@ -45,9 +46,5 @@ footer {
     color: #007bff;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-}
+
 
