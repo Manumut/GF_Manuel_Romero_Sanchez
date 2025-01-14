@@ -1,10 +1,20 @@
+/* PAGINA PRINCIPAL */
 .carousel-inner img {
-    max-height: 500px; /* Ajusta el alto máximo */
-    object-fit: cover; /* Asegura que la imagen no se deforme */
-    margin: 0 auto; /* Centra la imagen */
+    max-height: 500px;
+    object-fit: cover;
 }
 
-/* HISORIA */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+}
+
+/* PAGINA HISTORIA */
 
 .hero-section {
     background: url('./imgs/big.jpg') no-repeat ;
