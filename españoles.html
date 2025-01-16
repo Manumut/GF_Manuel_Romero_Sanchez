@@ -1,11 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Felinos en España</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Grandes Felinos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="españoles.html">Felinos en España</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-light py-5 text-center">
+        <div class="container">
+            <h1>Felinos en España</h1>
+            <p>Descubre las especies de felinos que habitan en la península ibérica.</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <div class="container my-5">
+        <h2 class="section-heading">Especies de Felinos en España</h2>
+        <div class="row g-4">
+            <!-- Lince Ibérico -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="./imgs/español.PNG" class="card-img-top" alt="Lince Ibérico">
+                    <div class="card-body">
+                        <h5 class="card-title">Lince Ibérico (*Lynx pardinus*)</h5>
+                        <p class="card-text">
+                            El lince ibérico es uno de los felinos más emblemáticos de España. Se encuentra principalmente en Andalucía, Extremadura y Castilla-La Mancha. 
+                            Es una especie en peligro de extinción, pero los esfuerzos de conservación han logrado aumentar su población en los últimos años.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gato Montés -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="./imgs/esp.png" class="card-img-top" alt="Gato Montés">
+                    <div class="card-body">
+                        <h5 class="card-title">Gato Montés (*Felis silvestris*)</h5>
+                        <p class="card-text">
+                            Este pequeño felino habita en bosques y zonas montañosas de toda España. Es un hábil cazador y se caracteriza por su robusto pelaje y su cola gruesa con anillos oscuros.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conservation Section -->
+    <div class="container my-5">
+        <h2 class="section-heading">Conservación de los Felinos Españoles</h2>
+        <p>
+            Los felinos en España enfrentan amenazas como la pérdida de hábitat, los atropellos en carreteras y la caza furtiva. Programas de conservación como LIFE Iberlince han sido esenciales para la recuperación del lince ibérico, aumentando su población en los últimos años.
+        </p>
+        <p>
+            Proteger el ecosistema donde viven estos felinos no solo ayuda a estas especies, sino que también mantiene el equilibrio de la biodiversidad en España.
+        </p>
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-primary">Aprender Más</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>© 2025 Grandes Felinos | Felinos en España</p>
+        <a href="index.html" class="btn btn-secondary mt-2">Volver al Inicio</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
