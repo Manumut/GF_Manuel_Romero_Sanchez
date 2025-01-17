@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gato Montés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .hero-section {
+            background: url('./imgs/gato_montes.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            padding: 100px 0;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gato Montés</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#caracteristicas">Características</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#conservacion">Conservación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1>El Fascinante Gato Montés</h1>
+            <p>Descubre uno de los felinos más esquivos y majestuosos de Europa.</p>
+        </div>
+    </section>
+
+    <!-- Introducción -->
+    <section class="container my-5">
+        <h2 class="text-center">Introducción</h2>
+        <p class="text-justify">
+            El gato montés (Felis silvestris) es un felino salvaje que habita en bosques y áreas montañosas de Europa, África y Asia. En España, se encuentra principalmente en áreas forestales, donde lleva una vida solitaria y nocturna. Este animal es un símbolo de la vida silvestre europea y destaca por su apariencia similar a la de un gato doméstico, aunque con diferencias notables.
+        </p>
+    </section>
+
+    <!-- Características -->
+    <section id="caracteristicas" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Características del Gato Montés</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/gatoMont.png" class="card-img-top" alt="Pelaje">
+                        <div class="card-body">
+                            <h5 class="card-title">Pelaje y Coloración</h5>
+                            <p class="card-text">Su pelaje es grisáceo con rayas negras en el cuerpo, cola y patas. La cola es gruesa y tiene anillos oscuros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/gatoAgua.png" class="card-img-top" alt="Hábitat">
+                        <div class="card-body">
+                            <h5 class="card-title">Hábitat</h5>
+                            <p class="card-text">Prefiere bosques densos y áreas montañosas con abundante cobertura vegetal y fuentes de agua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/gatocomiendo.png" class="card-img-top" alt="Comportamiento">
+                        <div class="card-body">
+                            <h5 class="card-title">Comportamiento</h5>
+                            <p class="card-text">Es un animal solitario y nocturno. Su dieta incluye pequeños mamíferos, aves y reptiles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><
+    </section>
+
+    <!-- Conservación -->
+    <section id="conservacion" class="container my-5">
+        <h2 class="text-center">Conservación</h2>
+        <p class="text-justify">
+            El gato montés enfrenta varias amenazas, incluyendo la destrucción de su hábitat, la hibridación con gatos domésticos y la caza furtiva. Aunque no está en peligro crítico, su población ha disminuido en ciertas áreas. Es importante proteger sus hábitats naturales y aumentar la conciencia pública sobre su papel ecológico.
+        </p>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./imgs/gato_montes_conservacion.jpg" class="img-fluid rounded" alt="Conservación">
+            </div>
+            <div class="col-md-6">
+                <h5>Esfuerzos de Conservación</h5>
+                <ul>
+                    <li>Creación de reservas naturales.</li>
+                    <li>Prohibición de la caza en ciertas regiones.</li>
+                    <li>Campañas de educación ambiental.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>© 2025 Gato Montés | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
