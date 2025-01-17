@@ -49,7 +49,7 @@ footer {
 
 
 .claro{
-    background: url('./imgs/lince/lince.png') no-repeat ;
+    background: url('./imgs/lince/lince.png') no-repeat center fixed ;
     background-size: cover ;
     color: white;
     height: 400px;
