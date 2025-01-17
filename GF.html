@@ -1,11 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leones, Tigres y Panteras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .hero-section {
+            background: url('./imgs/felinos_hero.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            padding: 100px 0;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Felinos Majestuosos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#intro">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#leones">Leones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tigres">Tigres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#panteras">Panteras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#conservacion">Conservación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="intro" class="hero-section text-center">
+        <div class="container">
+            <h1>Leones, Tigres y Panteras</h1>
+            <p>Explora el mundo de los felinos más majestuosos y descubre sus secretos.</p>
+        </div>
+    </section>
+
+    <!-- Sección: Información sobre Leones -->
+    <section id="leones" class="container my-5">
+        <h2 class="text-center">Leones: Los Reyes de la Sabana</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./imgs/leon.jpg" class="img-fluid rounded" alt="León">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Los leones son conocidos como los "Reyes de la Sabana" debido a su majestuosidad y su comportamiento social único entre los felinos. Viven en grupos llamados manadas, compuestos por hembras, cachorros y uno o dos machos dominantes.
+                </p>
+                <ul>
+                    <li><b>Hábitat:</b> Sabana africana y algunas partes de Asia.</li>
+                    <li><b>Alimentación:</b> Carnívoros; cazan antílopes, cebras y otros grandes herbívoros.</li>
+                    <li><b>Duración de vida:</b> Hasta 14 años en la naturaleza.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Información sobre Tigres -->
+    <section id="tigres" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Tigres: Los Gigantes Solitarios</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p>
+                        El tigre es el felino más grande del mundo y destaca por sus distintivas rayas negras sobre un pelaje anaranjado. A diferencia de los leones, son animales solitarios que patrullan extensos territorios.
+                    </p>
+                    <ul>
+                        <li><b>Hábitat:</b> Bosques y pastizales en Asia.</li>
+                        <li><b>Alimentación:</b> Cazan ciervos, jabalíes y búfalos.</li>
+                        <li><b>Duración de vida:</b> Hasta 20 años en cautiverio.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="./imgs/tigre.jpg" class="img-fluid rounded" alt="Tigre">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Información sobre Panteras -->
+    <section id="panteras" class="container my-5">
+        <h2 class="text-center">Panteras: Los Felinos Misteriosos</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./imgs/pantera.jpg" class="img-fluid rounded" alt="Pantera">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    La pantera no es una especie específica, sino un término utilizado para referirse a jaguares o leopardos con melanismo, un exceso de pigmentación negra. Este fenómeno les otorga una apariencia enigmática y elegante.
+                </p>
+                <ul>
+                    <li><b>Hábitat:</b> Selvas tropicales y bosques.</li>
+                    <li><b>Alimentación:</b> Omnívoros, cazan animales pequeños y medianos.</li>
+                    <li><b>Duración de vida:</b> Hasta 12 años en la naturaleza.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Curiosidades -->
+    <section id="curiosidades" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Curiosidades sobre Felinos</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/curiosidad_leon.jpg" class="card-img-top" alt="Curiosidad León">
+                        <div class="card-body">
+                            <h5 class="card-title">El Rugido del León</h5>
+                            <p class="card-text">El rugido de un león puede escucharse hasta a 8 km de distancia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/curiosidad_tigre.jpg" class="card-img-top" alt="Curiosidad Tigre">
+                        <div class="card-body">
+                            <h5 class="card-title">Rayas Únicas</h5>
+                            <p class="card-text">Las rayas de los tigres son únicas, como las huellas dactilares humanas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/curiosidad_pantera.jpg" class="card-img-top" alt="Curiosidad Pantera">
+                        <div class="card-body">
+                            <h5 class="card-title">Melanismo</h5>
+                            <p class="card-text">El melanismo les permite camuflarse mejor en la oscuridad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Conservación -->
+    <section id="conservacion" class="container my-5">
+        <h2 class="text-center">Conservación de los Felinos</h2>
+        <p>
+            Los grandes felinos enfrentan diversas amenazas como la pérdida de hábitat, caza furtiva y cambio climático. Es fundamental proteger sus hábitats naturales y promover esfuerzos de conservación para garantizar su supervivencia.
+        </p>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <ul>
+                    <li>Creación de áreas protegidas.</li>
+                    <li>Campañas de concienciación.</li>
+                    <li>Proyectos de reintroducción de especies.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="./imgs/conservacion.jpg" class="img-fluid rounded" alt="Conservación Felinos">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>© 2025 Felinos Majestuosos | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
