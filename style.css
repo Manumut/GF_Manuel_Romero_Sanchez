@@ -48,3 +48,13 @@ footer {
 
 
 
+.claro{
+    background: url('./imgs/lince.png') no-repeat ;
+    background-size: cover ;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px black;
+}
