@@ -114,3 +114,18 @@ img.img-fluid:hover {
     padding: 100px 0;
 }
 
+.claro{
+    background: url('./imgs/lince/español.PNG') no-repeat center center fixed ;  
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 100px 0;
+}
+
+.gatos{
+    background: url('./imgs/gato montes/gato_montes.PNG') no-repeat center center fixed ;  
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 100px 0;
+}
