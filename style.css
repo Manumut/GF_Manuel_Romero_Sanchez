@@ -14,16 +14,23 @@ h1, h2, h5 {
 p {
     font-weight: 400; /* Texto normal */
 }
+.nav-link{
+    color: white !important;
+}
+.dropdown-item{
+    color: black !important;
+}
+.navbar-toggler{
+    background-color: rgb(255, 255, 255) !important;
+    border-color: rgb(185, 185, 185) !important;
+}
 
 .carousel-inner img {
     max-height: 500px;
     object-fit: cover;
 }
 
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
+
 
 footer {
     background-color: #2c3e50;
@@ -51,6 +58,10 @@ footer {
 .card:hover {
     transform: scale(1.05); /* Escala al pasar el cursor */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
 /* IMAGENES */
