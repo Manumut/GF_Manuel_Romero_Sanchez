@@ -129,3 +129,42 @@ img.img-fluid:hover {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     padding: 100px 0;
 }
+
+
+
+
+
+
+
+/* Vision Section */
+.bg-light {
+    background-color: #f8f9fa !important;
+    padding: 50px 20px;
+}
+
+.bg-light h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.bg-light p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .bg-light h2 {
+        font-size: 2rem;
+    }
+}
