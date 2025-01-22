@@ -21,10 +21,8 @@ h1, h2, h5 {
 
 .carousel-inner img {
     max-height: 500px;
-     
 }
 
-/* Footer */
 footer {
     background-color: #2c3e50;
     color: #ecf0f1;
@@ -49,25 +47,25 @@ footer ul li a:hover {
 
 /* BOTONES */
 .btn-primary {
-    background-color: #e67e22; /* Naranja brillante */
+    background-color: #e67e22; 
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: #d35400; /* Naranja más oscuro */
+    background-color: #d35400; 
 }
 
 
 /* TARJETAS */
 .card {
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /*Transicion*/
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
 }
 
 .card:hover {
-    transform: scale(1.05); /* Escala al pasar el cursor */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .card-img-top {
@@ -83,7 +81,7 @@ img.img-fluid {
 }
 
 img.img-fluid:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    transform: scale(1.05); 
 }
 
 
@@ -91,14 +89,14 @@ img.img-fluid:hover {
 
 /* INDEX */
 .accordion-button {
-    background-color: #e67e22; /* Fondo claro */
-    color: #000000; /* Texto oscuro */
+    background-color: #e67e22;
+    color: #000000;
     border-radius: 5px;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #d35400; /* Fondo naranja activo */
-    color: white; /* Texto claro */
+    background-color: #d35400; 
+    color: white; 
 }
 
 
