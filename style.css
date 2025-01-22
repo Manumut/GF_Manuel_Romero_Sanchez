@@ -1,25 +1,17 @@
 /* TODOS */
 body {
-    background-color: #e9e9e9; /* Fondo claro */
-    color: #212529; /* Texto oscuro */
-    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    background-color: #e9e9e9; 
+    color: #212529; 
+    font-family: 'Roboto', sans-serif; 
 }
 
-/* Tipografía */
+
 h1, h2, h5 {
-    font-weight: 700; /* Títulos más destacados */
-}
-
-p {
-    font-weight: 400; /* Texto normal */
+    font-weight: 700;
 }
 
 .nav-link{
     color: rgb(0, 0, 0) !important;
-}
-
-.dropdown-item{
-    color: black !important;
 }
 
 .navbar-toggler{
@@ -29,7 +21,7 @@ p {
 
 .carousel-inner img {
     max-height: 500px;
-    object-fit: cover;
+     
 }
 
 /* Footer */
@@ -152,21 +144,7 @@ img.img-fluid:hover {
 
 
 
-/* Vision Section */
-.bg-light {
-    background-color: #f8f9fa !important;
-    padding: 50px 20px;
-}
 
-.bg-light h2 {
-    font-size: 2.5rem;
-    color: #333;
-}
-
-.bg-light p {
-    font-size: 1.1rem;
-    color: #555;
-}
 
 
 
